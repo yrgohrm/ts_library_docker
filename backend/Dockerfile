@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jre-hotspot
+FROM eclipse-temurin:21
 
 # Copy our things to the image
 RUN mkdir -p /opt/library/migration
